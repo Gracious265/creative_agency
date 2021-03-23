@@ -256,7 +256,13 @@ section.home{
 
 .contact-form{
     position: relative;
-    background:
+    background: #f9f9f9;
+    width: calc(100% - 400%);
+    padding: 60px 40px 20px;
+}
+
+.contact-form form{
+    width:100%;
 }
 @media(max-width: 1068px){
     .home-img{
