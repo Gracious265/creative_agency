@@ -273,7 +273,37 @@ section.home{
 
 .contact-form .input50{
     width: 50%;
-    margin: 0 10px;
+    margin: 0 10px; 
+}
+
+.contact-form .input100{
+    width: 100%;
+    margin: 0 10px; 
+}
+
+.contact-form .row input,
+.contact-form .row textarea { 
+    position: relative;
+    border: 0;
+    border: 1px solid rgba(0, 0,0,0.2);
+    color: #111;
+    background: transparent;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-size: 16;
+    font-weight: 300;
+    margin: 10px;
+    resize: none;
+}
+
+.contact-form .row textarea{
+    height: 150px;
+}
+
+.contact-form .row input[type='submit']{
+    background-color: #1b206e;
+    color: #fff;
 }
 @media(max-width: 1068px){
     .home-img{
