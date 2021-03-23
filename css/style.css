@@ -304,6 +304,18 @@ section.home{
 .contact-form .row input[type='submit']{
     background-color: #1b206e;
     color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    border: 0;
+    cursor: pointer;
+}
+
+.contact-info{
+    width: 350px;
+    background: #f9f9f9;
+    padding: 60px 40px 20px;
 }
 @media(max-width: 1068px){
     .home-img{
