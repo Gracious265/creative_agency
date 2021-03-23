@@ -263,6 +263,17 @@ section.home{
 
 .contact-form form{
     width:100%;
+    
+}
+
+.contact-form .row{
+    width:100%;
+    display: flex;
+}
+
+.contact-form .input50{
+    width: 50%;
+    margin: 0 10px;
 }
 @media(max-width: 1068px){
     .home-img{
