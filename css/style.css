@@ -2,6 +2,7 @@
 
 :root{
     --primary-color: steelblue;
+    --secondary-color: #1b206e;
 }
 
 /* BASE STYLES */
@@ -302,7 +303,7 @@ section.home{
 }
 
 .contact-form .row input[type='submit']{
-    background-color: #1b206e;
+    background-color: var(--secondary-color);
     color: #fff;
     margin: 0;
     text-transform: uppercase;
@@ -317,6 +318,27 @@ section.home{
     background: #f9f9f9;
     padding: 60px 40px 20px;
 }
+
+.contact-info .info-box{
+    display: flex;
+    align-items: flex-start;
+}
+
+.contact-info .info-box .contact-icon{
+    width: 20px;
+    margin-right: 40px;
+
+}
+
+.contact-info .info-box .details h4{
+    color: var(--secondary-color);
+
+}
+.contact-info .info-box .details p,
+.contact-info .info-box .details a{
+    color: #111;
+}
+
 @media(max-width: 1068px){
     .home-img{
         display: none;
@@ -339,6 +361,31 @@ section.home{
 
     .services{
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact{
+        flex-direction: column;    
+    }
+
+    .contact-form{
+        width: 100%;
+        padding: 30px 30px 20px;
+    }
+
+    .contact-form .row{
+       flex-direction: column; 
+    }
+
+    .contact-form .input50,
+    .contact-form .input100{
+        width: 100%;
+        margin: 0;
+    }
+
+    .contact-info{
+        width: 100%;
+        margin-top: 20px;
+        padding: 30px 30px 20px;
     }
 
 
