@@ -148,7 +148,7 @@ section.home{
     align-items: center;
 
 }
-.navigation .social-bar{
+.navigation .social-bar a{
     display: inline-block;
     transform: scale(0.5);
 
@@ -157,7 +157,7 @@ section.home{
 .navigation .email-icon{
     position:absolute;
     bottom: 20px;
-    transform : scale(1);
+    transform : scale(0.5);
 
 }
 
