@@ -157,7 +157,7 @@ section.home{
 .navigation .email-icon{
     position:absolute;
     bottom: 20px;
-    transform : scale(0.5);
+    transform : scale(1);
 
 }
 
@@ -249,7 +249,7 @@ section.home{
 
 .contact{
     position: relative;
-    width: 100;
+    width: 100%;
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
@@ -260,11 +260,11 @@ section.home{
 .contact-form{
     position: relative;
     background: #f9f9f9;
-    width: calc(100% - 400%);
+    width: calc(100% - 400px);
     padding: 60px 40px 20px;
 }
 
-.contact-form form{
+.contact-form form {
     width:100%;
     
 }
@@ -310,7 +310,7 @@ section.home{
     margin: 0;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-weight: 600;
+    font-weight: 300;
     border: 0;
     cursor: pointer;
 }
@@ -324,6 +324,7 @@ section.home{
 .contact-info .info-box{
     display: flex;
     align-items: flex-start;
+    margin-bottom: 40px;
 }
 
 .contact-info .info-box .contact-icon{
